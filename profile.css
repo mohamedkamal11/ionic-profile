@@ -298,3 +298,27 @@ h3 .ic{width:1.05em;height:1.05em;color:var(--gold-700)}
 .cover .logo,.cover .ed{filter:drop-shadow(0 1mm 2.5mm rgba(0,0,0,.45))}
 .cover .ct{bottom:20mm}
 .cover h1{font-size:44pt;line-height:1.1}
+
+/* reference data sheets (published manufacturer data, 2026-11-24) */
+.rds .rsrc{text-align:end}.rds .rsrc b{font-size:10.5pt}
+.tdst.rt th:nth-child(1),.tdst.rt td:nth-child(1){width:36%}
+.tdst.rt th:nth-child(2),.tdst.rt td:nth-child(2){width:34%;white-space:normal}.tdst.rt td:nth-child(2){font-size:9pt;color:var(--petrol)}
+.tdst.rt th:nth-child(3),.tdst.rt td:nth-child(3){width:30%}.tdst.rt td:nth-child(3){font-size:8pt;color:var(--muted)}
+.rdocs{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin:3mm 0}
+.rdocs.n1,.rdocs.n2{grid-template-columns:repeat(4,1fr)}
+.rdocs figure{margin:0}.rdocs img{width:100%;height:44mm;object-fit:contain;object-position:top;background:#f5f6f6;border:.5pt solid var(--line);border-radius:1mm}
+.rdocs figcaption{font:500 7pt var(--f-body);color:var(--muted);margin-top:1mm;text-align:center;line-height:1.3}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:3mm 5mm;margin:2mm 0}
+.ri{border:.5pt solid var(--line);border-inline-start:2.2pt solid var(--petrol);border-radius:1.5mm;padding:2.4mm 3.2mm}
+.ri header b{display:block;font:600 9.6pt var(--f-head);color:var(--petrol-900)}.ri header span{display:block;font-size:7.6pt;color:var(--gold-700);margin:.4mm 0 1mm}
+.ri p{font-size:7.9pt;color:var(--muted);margin:0 0 1mm;line-height:1.4}
+.ri ul{list-style:none;margin:0;padding:0}.ri li{display:flex;justify-content:space-between;gap:3mm;font-size:7.8pt;border-top:.4pt solid var(--line);padding:.8mm 0;line-height:1.35}
+.ri li span{color:var(--muted)}.ri li bdi{font-weight:600;color:var(--ink);text-align:end}
+.rm{list-style:none;margin:2mm 0 3mm;padding:0;display:grid;gap:2.4mm}
+.rm li{display:flex;gap:3mm;align-items:flex-start}.rm .n{font:700 11pt var(--f-head);color:var(--gold);min-width:7mm}
+.rm b{font:600 10pt var(--f-head);color:var(--petrol-900)}.rm p{font-size:8.5pt;margin:.6mm 0 0;line-height:1.45}.rm p.src{font-size:7pt;color:var(--muted)}
+.refs .pad{padding-top:18mm}.refs .lead{font-size:10.5pt}
+.refs .tgrp{margin-top:3.2mm;padding:2.6mm 4mm}.refs .tgrp header{margin-bottom:1.5mm}.refs .tgrp h3{font-size:11pt}.refs .tgrp header p{font-size:8pt}
+.refs .tgrp ul{grid-template-columns:repeat(4,1fr);gap:2mm 4mm}.refs .tgrp li b{font-size:9pt}.refs .tgrp li span{font-size:7.4pt;line-height:1.3;display:block}
+.tdst .lab{display:flex;align-items:center;gap:1mm;font:500 7.2pt var(--f-body);color:#2e7d4f;margin-top:.6mm}.tdst .lab .ic{width:3mm;height:3mm}
+.refs .tgrp li.lab b{color:#2e7d4f}
